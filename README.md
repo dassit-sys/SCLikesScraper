@@ -10,9 +10,9 @@ This program reads in a Soundcloud likes page, strips out each URL which leads t
 3. Save the page in the same directory that this program is installed. Save as .html
 4. Open Command Prompt, navigate to installation directory
 5. Run:  
-> java -jar Driver ***pageName.html***  
+> java -jar Driver ***C:\... filepath ...\pageName.html***  
   
-Obviously replace pageName.html with the filename of the page you saved in step 2  
+Obviously replace filepath with the actual file's path, and pageName.html with the filename of the page you saved in step 2  
 6. Song URLs should be saved one-per-line in report.txt
 7. prettyReport.txt holds "Artist name - Song title" one-per-line for other uses
 8. (Optional) To download the songs, use with yt-dl. If you're on command line only, run:  
