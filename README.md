@@ -27,6 +27,9 @@ Replace filepath with your report.txt's actual filepath.
 Alternatively, if you use yt-dl GUI, click the arrow next to "download" and select "Batch download from file..." and select your report.txt file.
 Enjoy!
 
+## Arguments
+Currently the only optional argument is -showlines. When ran it will also print out each line number where a valid URL was found in the .html file.
+
 ## About The Project
 Having accumulated over 700 likes on my Soundcloud account, I was looking for a way to save them locally in case Soundcloud ever went under, or in case I ever get my third copyright strike. However, Soundcloud does not have a "export" function. So, I made one. This project has been around for over a year, but only recently had I thought that others might find it useful also.
 
