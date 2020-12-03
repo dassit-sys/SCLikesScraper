@@ -5,7 +5,7 @@ This program reads in a Soundcloud likes page, strips out each URL which leads t
 1. Clone from Github
 
 ## Usage
-1. Using your browser, navigate to your Soundcloud likes page. Next, you need to load up all your likes so that they are all fully displaying, and there is no more "scroll down for more" loading circle at the bottom. To make this faster, use the scroll wheel as shown in the following gif: <img src="https://s8.gifyu.com/images/2020-11-24-13-35-18.md.gif" alt="Use scrollwheel" width="300" height="300">
+1. Using your browser, navigate to your Soundcloud likes page. Next, you need to load up all your likes so that they are all fully displaying, and there is no more "scroll down for more" loading circle at the bottom. To make this faster, use the scroll wheel as shown in the following gif: ![](2020-11-24 13-35-18.gif)
 2. Now that the entire list is visible, we need to save the whole page. Right click on an empty part of the page and select "Save as...". For Chrome users, this may read "Save Page As...", and for Firefox users it may read "Save Page As".
 3. Save the page in the same directory that this program is installed. Save as .html
 
