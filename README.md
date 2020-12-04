@@ -10,12 +10,9 @@ OR download as .zip
 2. Now that the entire list is visible, we need to save the whole page. Right click on an empty part of the page and select "Save as...". For Chrome users, this may read "Save Page As...", and for Firefox users it may read "Save Page As".
 3. Save the page in the same directory that this program is installed. Save as .html
 4. Open Command Prompt, navigate to installation directory
-5. Compile by running:  
-> javac Driver.java  
+5. Run:  
   
-Then run:  
-  
-> java -jar Driver ***C:\... filepath ...\pageName.html***  
+> java Driver ***pageName.html***  
   
 Obviously replace filepath with the actual file's path, and pageName.html with the filename of the page you saved in step 2  
 6. Song URLs should be saved one-per-line in report.txt
