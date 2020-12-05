@@ -2,8 +2,10 @@
 This program reads in a Soundcloud likes page, strips out each URL which leads to a song, and saves it to a text file named report.txt. This file contains one URL on each line, which allows it to be easily used with the yt-dl "batch download from file" function.
 
 ## Installation
-> git clone https://github.com/dassit-sys/SCLikesScraper.git  
+> git clone https://github.com/dassit-sys/SCLikesScraper.git   
+  
 OR download as .zip  
+  
 > Extract Driver.class and Scraper.class into the same folder. Keep this folder open for later
 
 ## Usage
