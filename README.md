@@ -3,7 +3,8 @@ This program reads in a Soundcloud likes page, strips out each URL which leads t
 
 ## Installation
 > git clone https://github.com/dassit-sys/SCLikesScraper.git  
-OR download as .zip
+OR download as .zip  
+> Extract Driver.class and Scraper.class into the same folder. Keep this folder open for later
 
 ## Usage
 1. Using your browser, navigate to your Soundcloud likes page. Next, you need to load up all your likes so that they are all fully displaying, and there is no more "scroll down for more" loading circle at the bottom. To make this faster, use the scroll wheel as shown in the following gif: ![](https://github.com/dassit-sys/SCLikesScraper/blob/main/2020-11-24%2013-35-18.gif?raw=true)
