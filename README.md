@@ -18,8 +18,8 @@ OR download as .zip
 > java Driver ***pageName.html***  
   
 Obviously replace pageName.html with the filename of the page you saved in step 2  
-6. Song URLs should be saved one-per-line in report.txt
-7. prettyReport.txt holds "Artist name - Song title" one-per-line for other uses
+6. Song URLs should be saved one-per-line in report.txt 
+7. prettyReport.txt holds "Artist name - Song title" one-per-line for other uses 
 8. (Optional) To download the songs, use with yt-dl. If you're on command line only, run:  
 > youtube-dl -f best -a ***C:\... filepath ...\report.txt***  
   
