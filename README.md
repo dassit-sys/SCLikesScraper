@@ -10,12 +10,12 @@ OR download as .zip
 
 ## Usage
 1. Using your browser, navigate to your Soundcloud likes page. Next, you need to load up all your likes so that they are all fully displaying, and there is no more "scroll down for more" loading circle at the bottom. To make this faster, use the scroll wheel as shown in the following gif: ![](https://github.com/dassit-sys/SCLikesScraper/blob/main/2020-11-24%2013-35-18.gif?raw=true)
-2. Now that the entire list is visible, we need to save the whole page. Right click on an empty part of the page and select "Save as...". For Chrome users, this may read "Save Page As...", and for Firefox users it may read "Save Page As".
+2. Now that the entire list is visible, we need to save the whole page. Right click on an empty part of the page and select "Save as...". For Chrome users, this may read "Save Page As...", and for Firefox users it may read "Save Page As". Replace the lengthy default title with something simple like "page.html"
 3. Save the page in the same directory that this program is installed. Save as .html
 4. Open Command Prompt, navigate to installation directory
 5. Run:  
   
-> java Driver ***pageName.html***  
+> java Driver ***page.html***  
   
 Obviously replace pageName.html with the filename of the page you saved in step 2  
 6. Song URLs should be saved one-per-line in report.txt  
