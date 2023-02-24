@@ -8,14 +8,14 @@ This program reads in a Soundcloud likes page, strips out each URL which leads t
 
 ## Usage
 1. Using your browser, navigate to your Soundcloud likes page. Next, you need to load up all your likes so that they are all fully displaying, and there is no more "scroll down for more" loading circle at the bottom. To make this faster, use the scroll wheel as shown in the following gif: ![](https://github.com/dassit-sys/SCLikesScraper/blob/main/2020-11-24%2013-35-18.gif?raw=true)
-2. Now that the entire list is visible, we need to save the whole page. Right click on an empty part of the page and select "Save as...". For Chrome users, this may read "Save Page As...", and for Firefox users it may read "Save Page As". Replace the lengthy default title with something simple like "page.html"
-3. Save the page in the same directory that this program is installed. Save as .html
-4. Open Command Prompt, navigate to installation directory (`cd C:\\directory\` on Windows)
-5. Run: `java Driver path\pageName.html`
+2. Now that the entire list is visible, we need to save the whole page. Right click on an empty part of the page and select "Save as...". For Chrome users, this may read "Save Page As...", and for Firefox users it may read "Save Page As". Replace the lengthy default title with something simple like "page.html". Save the page in the same directory that this program is installed. Save as .html
+3. Open Command Prompt, navigate to installation directory (`cd C:\\directory\` on Windows)
+4. Run: `java Driver path\pageName.html`
 Obviously replace path\pageName.html with the filepath and filename of the page you saved in step 2  
-6. Song URLs should be saved one-per-line in report.txt  
-7. prettyReport.txt holds "Artist name - Song title" one-per-line for other uses  
-8. (Optional) To download the songs, use with yt-dl. If you're on command line only, run `youtube-dl -f best -a C:\filepath\report.txt`. Replace filepath with your report.txt's actual filepath.
+5. (Optional) To download the songs, use with yt-dl. If you're on command line only, run `youtube-dl -f best -a C:\filepath\report.txt`. Replace filepath with your report.txt's actual filepath.
+
+- Song URLs are saved one-per-line in report.txt  
+- prettyReport.txt holds "Artist name - Song title" one-per-line for other uses  
 
 To use with yt-dlp run: `yt-dlp --batch-file path\pageName.html`
 Alternatively, if you use yt-dl GUI, click the arrow next to "download" and select "Batch download from file..." and select your report.txt file.
